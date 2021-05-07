@@ -1,20 +1,15 @@
 import React from "react"
-import { Link } from "gatsby"
 
 const MenuReceipeCard = props => {
   return (
-    <div key={props.key} className=" rounded-lg shadow-2xl bg-white  ">
+    <div className="cards-div">
       <img className="w-full rounded-t-lg " src={props.curElem.img} />
-
-      <p className="  text-mono text-sm text-gray-600 ">{props.curElem.day}</p>
-
-      <h1 className=" text-xl font-semibold text-gray-900 mt-3 px-8 ">
-        {props.curElem.title}
-      </h1>
-      <p className="text-gray-500 mt-4 px-8">{props.curElem.content}</p>
-      <Link className="text-sm hover:text-gray-500 mt-4 px-8 py-5" to="#">
+      <p className="cards-content1">{props.curElem.day}</p>
+      <h1 className="cards-header ">{props.curElem.title}</h1>
+      <p className="cards-content2">{props.curElem.content}</p>
+      <p className="cards-content3">
         {props.curElem.comment}
-      </Link>
+      </p>
     </div>
   )
 }
