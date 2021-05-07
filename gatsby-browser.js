@@ -8,7 +8,7 @@
 import React from 'react'
 import LanguageProvider from './src/providers/LanguageProvider'
 import "./src/components/styles/global.css";
-import "tailwindcss/tailwind.css"
+// import "tailwindcss/tailwind.css"
 
 export const wrapRootElement = ({ element }) => (
 	<LanguageProvider>{element}</LanguageProvider>
