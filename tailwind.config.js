@@ -1,10 +1,14 @@
 // tailwind.config.js
 module.exports = {
   future: {},
-  purge: ["./src/**/*.{js,jsx,ts,tsx}"],
+  purge: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily :{
+        body: ["Roboto Slab"]
+      }
+    },
   },
   variants: {},
-  plugins: [],
+  plugins: ['gatsby-plugin-postcss'],
 }

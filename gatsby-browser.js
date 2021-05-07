@@ -7,7 +7,9 @@
 // You can delete this file if you're not using it
 import React from 'react'
 import LanguageProvider from './src/providers/LanguageProvider'
-require('./src/styles/global.css')
+import "./src/components/styles/global.css";
+import "tailwindcss/tailwind.css"
+
 export const wrapRootElement = ({ element }) => (
 	<LanguageProvider>{element}</LanguageProvider>
 )
