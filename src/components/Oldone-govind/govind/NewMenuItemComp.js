@@ -13,7 +13,7 @@ const NewMenuItemComp = props => {
       <p className="text-sm p-2">{props.curE.info}</p>
       <div className="icon-div">
         <p className="font-bold text-lg">{props.curE.price}</p>
-        <ShoppingCartIcon className=" shopicon" />
+        <ShoppingCartIcon className="shopicon" />
       </div>
     </div>
   )

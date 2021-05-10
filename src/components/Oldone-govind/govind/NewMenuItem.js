@@ -1,10 +1,10 @@
 import { HeartIcon, ShoppingCartIcon } from "@heroicons/react/solid"
 import React from "react"
-import SIGN from "../../images/veg.png"
-import MT1 from "../../images/mt1.png"
-import MT2 from "../../images/mt2.png"
-import MT3 from "../../images/mt3.png"
-import MT4 from "../../images/mt4.png"
+import SIGN from "../../../images/veg.png"
+import MT1 from "../../../images/mt1.png"
+import MT2 from "../../../images/mt2.png"
+import MT3 from "../../../images/mt3.png"
+import MT4 from "../../../images/mt4.png"
 import NewMenuItemComp from "./NewMenuItemComp"
 
 const NewMenuItem = () => {
