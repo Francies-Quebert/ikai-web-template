@@ -15,7 +15,7 @@ const Header = () => {
         <div className="hdr-img-overlay"> </div>
         <div className=" relative">
           <p className="hdr-title">{Hdata.title}</p>
-          <h1 className="hdr-title">{Hdata.header}</h1>
+          <h1 className="hdr-header">{Hdata.header}</h1>
           <p className="hdr-content">{Hdata.content}</p>
         </div>
       </div>
