@@ -1,5 +1,5 @@
 import React from "react"
-import BG from "../../images/4.jpg"
+import BG from "../../../images/4.jpg"
 import "tailwindcss/tailwind.css"
 
 const MenuHeader = () => {

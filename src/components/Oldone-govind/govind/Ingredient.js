@@ -1,8 +1,8 @@
 import React from "react"
 import { Splide, SplideSlide } from "@splidejs/react-splide"
 import "@splidejs/splide/dist/css/themes/splide-default.min.css"
-import Ingred from "../../images/ingred.jpg"
-import PLX from "../../images/paralleex.jpg"
+import Ingred from "../../../images/ingred.jpg"
+import PLX from "../../../images/paralleex.jpg"
 
 const Ingredient = () => {
   const IntegData = {

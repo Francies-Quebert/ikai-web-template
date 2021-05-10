@@ -23,11 +23,22 @@ const IndexPage = () => {
     )
   }
   return (
-    <Layout>
+    <Layout >
       <SEO title="Home" />
       <FormattedMessage id="welcome" />
       <BodyMain />
       <SelectLanguage lang={lang} toggleLanguage={handleLanguage} />
+      <hr />
+      <hr />
+      <Link to="/newGovind/" className="hover:text-green-500">NewHome</Link>
+      <hr/>
+      <Link to="/govind/" className="hover:text-red-500">home page</Link>
+      <hr />
+      <Link to="/about/" className="hover:text-red-500">about page</Link>
+      <hr/>
+      <Link to="/contact/" className="hover:text-red-500">contact page</Link>
+      <hr />
+      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
       <Link to="/page-2/">Go to page 2</Link>
       {/* <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
       <Link to="/AtulWork/">Atul Work</Link>

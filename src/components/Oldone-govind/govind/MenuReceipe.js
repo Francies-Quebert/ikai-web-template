@@ -1,7 +1,7 @@
 import React from "react"
-import MENU1 from "../../images/blog1.jpg"
-import MENU2 from "../../images/blog2.jpg"
-import MENU3 from "../../images/blog3.jpg"
+import MENU1 from "../../../images/blog1.jpg"
+import MENU2 from "../../../images/blog2.jpg"
+import MENU3 from "../../../images/blog3.jpg"
 import MenuReceipeCard from "./MenuReceipeCard"
 
 const MenuReceipe = () => {

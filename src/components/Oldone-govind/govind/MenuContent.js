@@ -1,6 +1,6 @@
 import React from "react"
-import STORY1 from "../../images/story1.jpg"
-import STORY2 from "../../images/story2.jpg"
+import STORY1 from "../../../images/story1.jpg"
+import STORY2 from "../../../images/story2.jpg"
 
 const MenuContent = () => {
   const SData = {
