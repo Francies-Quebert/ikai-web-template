@@ -6,7 +6,7 @@ import Image from "../components/image"
 import SEO from "../components/common/SEO/index"
 import SelectLanguage from "../components/SelectLanguage"
 import { useI18n } from "../providers/LanguageProvider"
-import MenuPage from "../components/Menu/MenuPage"
+import MenuPage from "../components/SauravComponents/Menu/MenuPage"
 
 const IndexPage = () => {
   const { lang, handleLanguage } = useI18n()

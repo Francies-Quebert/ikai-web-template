@@ -82,7 +82,7 @@ const NewMenu = () => {
                             >
                               {xx.deatils}
                               <span
-                                className="text-sm float-right font-medium text-left"
+                                className="text-xs float-right font-medium text-left"
                                 style={{ color: "#C02530" }}
                               >
                                 ₹{xx.mrp}
@@ -108,7 +108,7 @@ const NewMenu = () => {
                             >
                               {xx.deatils}
                               <span
-                                className="text-sm float-right font-medium text-left"
+                                className="text-xs float-right font-medium text-left"
                                 style={{ color: "#C02530" }}
                               >
                                 ₹{xx.mrp}
@@ -134,7 +134,7 @@ const NewMenu = () => {
                             >
                               {xx.deatils}
                               <span
-                                className="text-sm float-right font-medium text-left"
+                                className="text-xs float-right font-medium text-left"
                                 style={{ color: "#C02530" }}
                               >
                                 ₹{xx.mrp}
@@ -152,7 +152,7 @@ const NewMenu = () => {
         )
       })}
       <div className="px-8 relative">
-        <div className="block w-32 h-10 bg-no-repeat mx-auto" style={{backgroundImage: url(IMG3)}}></div>
+        <div className="block w-32 h-10 bg-no-repeat mx-auto" style={{backgroundImage: IMG3, color: "white"}}></div>
       </div>
     </>
   )
