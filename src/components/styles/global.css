@@ -144,4 +144,42 @@
   .category-title {
     @apply text-3xl italic font-extrabold text-white;
   }
+
+  .header-initial {
+    @apply absolute top-0 left-0 z-40 w-full h-16 pt-5;
+  }
+
+  .overflow-header {
+    @apply -top-2.5 left-0 bg-white;
+  }
+  .overflow-header-fixed {
+    @apply fixed top-0  z-50 ;
+  }
+
+
+}
+@layer utilities {
+  .shadow-bottom {
+    box-shadow: 0 12px 6px rgb(0 0 0 / 6%);
+  }
+  .transition-top {
+    transition: top 0.8s ease-in-out;
+  }
+  .bg-custom-black {
+    background: rgba(12, 12, 13, 0.78);
+  }
+
+  .transition-header{
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+  }
+
+  .header-overflow-extra {
+    box-shadow: 0 1px 3px rgb(0 0 0 / 11%);
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    /* -webkit-font-smoothing: antialiased; */
+  }
 }
