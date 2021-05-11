@@ -26,7 +26,7 @@ const MainBanner = props => {
             {props.description}
           </p>
         </div>
-        <div
+        {/* <div
           class="absolute animate-spin"
           style={{
             left: "calc(50% - 25px)",
@@ -40,7 +40,7 @@ const MainBanner = props => {
             fontSize: 35,
             textAlignLast: "center",
           }}
-        ></div>
+        ></div> */}
       </div>
     </div>
   )
