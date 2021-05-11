@@ -12,7 +12,7 @@ const Header = () => {
   }
   return (
     <main>
-      <div className="hdr-body ">
+      <div className=" hdr-body ">
         <img className="hdr-img" src={BG} />
         <div className="hdr-img-overlay"> </div>
         <img src={HBG} className=" mx-auto relative " />

@@ -1,4 +1,3 @@
-import { any } from "prop-types"
 import React from "react"
 import AB_IMG from "../../../images/ab_1.jpg"
 import AB_S1 from "../../../images/ab_s1.jpg"
@@ -27,12 +26,12 @@ const About = () => {
   return (
     <section className="mt-20 px-10">
       <div className="text-center ">
-        <img src={AB_HDR1} className=" ml-auto -mb-2 mr-96" />
-        <img src={AB_HDR1} className="ml-96" />
+        {/* <img src={AB_HDR1} className=" ml-auto -mb-2 mr-96" />
+        <img src={AB_HDR1} className="ml-96" /> */}
 
-        <h1 className="ab-title ">{abData.title}</h1>
+        <h1 className="ab-title  ">{abData.title}</h1>
 
-        <p className="ab-content ">{abData.content}</p>
+        <p className=" ab-content ">{abData.content}</p>
       </div>
 
       <div className=" ab-div">

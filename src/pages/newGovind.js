@@ -4,6 +4,7 @@ import About from "../components/New-govind/Homepage/About"
 import Menu from "../components/New-govind/Homepage/Menu"
 import OpeningHour from "../components/New-govind/Homepage/OpeningHour"
 import TrackOrd from "../components/New-govind/Homepage/TrackOrd"
+import Footer from "../components/New-govind/Homepage/Footer"
 
 const newGovind = () => {
   return (
@@ -13,6 +14,7 @@ const newGovind = () => {
       <OpeningHour />
      <TrackOrd />
       <Menu /> 
+      <Footer />
     </>
   )
 }

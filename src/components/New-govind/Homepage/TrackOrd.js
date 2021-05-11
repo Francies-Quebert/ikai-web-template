@@ -32,15 +32,15 @@ const TrackOrd = () => {
         <h1 className="relative text-center text-4xl font-extrabold text-white">
           Track Order
         </h1>
-        <img src={AB_DDR1} alt="" className="relative -mt-16  mx-40" />
-        <img
+        {/* <img src={AB_DDR1} alt="" className="relative -mt-16  mx-40" /> */}
+        {/* <img
           src={AB_DDR2}
           alt=""
-          className="relative ml-auto  -mt-32 mr-40    "
-        />
+          className="relative ml-auto  -mt-32 mr-40 "
+        /> */}
         <div className="absolute inset-0 bg-gray-900 bg-opacity-60"></div>
 
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-1 md:grid-cols-2 md:gap-8 lg:grid-cols-3 px-10 hover:shadow-2xl transition duration-500  mt-10 overflow-hidden relative">
+        <div className=" h-full grid grid-cols-1 gap-4 sm:grid-cols-1 md:grid-cols-2 md:gap-8 lg:grid-cols-3  px-10 hover:shadow-2xl transition duration-500  mt-10 overflow-hidden relative">
           {traData.map(currE => {
             return (
               <div className=" bg-gray-50 text-center px-5 py-5 border-dashed border-4 hover:border-red-500 border-opacity-100 transition duration-500 ">

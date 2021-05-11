@@ -301,13 +301,13 @@
 
   /* header section */
   .hdr-body {
-    @apply bg-fixed text-center overflow-hidden relative py-40 px-10;
+    @apply text-center overflow-hidden relative py-40 px-10;
   }
   .hdr-header {
-    @apply text-5xl font-extrabold  tracking-widest text-white mt-10;
+    @apply text-5xl font-extrabold tracking-widest text-white mt-10;
   }
   .hdr-content {
-    @apply text-white text-xl italic mt-20 px-12;
+    @apply text-white text-xl italic mt-20;
   }
   .hdr-img {
     @apply absolute inset-0 h-full w-full object-cover;
@@ -327,13 +327,13 @@
     @apply text-4xl font-bold font-mono -mt-12;
   }
   .ab-content {
-    @apply text-sm px-60 p-10;
+    @apply md:px-60 text-sm text-gray-500 lg:px-60 p-0 mt-5;
   }
   .ab-div {
     @apply grid grid-cols-1 gap-4 sm:grid-cols-1 md:grid-cols-2 md:gap-8 px-10  py-10;
   }
   .ab-text {
-    @apply  text-4xl font-semibold text-green-600 text-center;
+    @apply text-4xl font-semibold text-green-600 text-center;
   }
   .ab-content1 {
     @apply text-gray-500 mt-5;
@@ -341,7 +341,7 @@
 
   /* OpeningHours */
   .oph-body {
-    @apply w-full h-96 shadow-2xl overflow-hidden relative px-10 p-10;
+    @apply w-full h-full shadow-2xl overflow-hidden relative px-10 p-10;
   }
   .oph-img {
     @apply absolute inset-0 h-full w-full object-cover mt-5;
