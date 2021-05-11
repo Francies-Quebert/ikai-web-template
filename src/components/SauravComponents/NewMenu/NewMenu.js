@@ -1,7 +1,9 @@
 import React from "react"
-import IMG from "../../images/menu-items/pizza.jpg"
-import IMG1 from "../../images/menu-items/salads.png"
-import IMG2 from "../../images/menu-items/desserts.png"
+import IMG from "../../../images/menu-items/pizza.jpg"
+import IMG1 from "../../../images/menu-items/salads.png"
+import IMG2 from "../../../images/menu-items/desserts.png"
+import IMG3 from "../../../images/menu-items/ornament.png"
+import { url } from "../../../../data/config"
 
 const NewMenu = () => {
   const itemtypes = [
@@ -149,6 +151,9 @@ const NewMenu = () => {
           </div>
         )
       })}
+      <div className="px-8 relative">
+        <div className="block w-32 h-10 bg-no-repeat mx-auto" style={{backgroundImage: url(IMG3)}}></div>
+      </div>
     </>
   )
 }

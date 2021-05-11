@@ -1,5 +1,5 @@
 import React from "react"
-import MenuPage from "../components/Menu/MenuPage"
+import MenuPage from "../components/SauravComponents/Menu/MenuPage"
 
 const saurav = () => {
   return (

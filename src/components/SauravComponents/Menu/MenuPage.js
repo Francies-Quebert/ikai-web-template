@@ -7,7 +7,7 @@ const MenuPage = () => {
   return (
     <div>
       <section className="bg-gray-300">
-        <div className="relative">
+        {/* <div className="relative">
           <span
             style={{ borderBottom: "1px solid #e4e4e4" }}
             className="bg-gray-400 text-center w-full justify-center flex"
@@ -51,10 +51,10 @@ const MenuPage = () => {
               </div>
             </div>
           </span>
-        </div>
+        </div> */}
         <MenuItem/>
       </section>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }

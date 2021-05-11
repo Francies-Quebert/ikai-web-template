@@ -1,6 +1,6 @@
 import React from "react"
 // import { XIcon } from "@heroicons/react/outline"
-import IMG from "../../images/menu-items/img-1.jpg"
+import IMG from "../../../images/menu-items/img-1.jpg"
 
 const MenuItemCard = props => {
   const ingredients = [
