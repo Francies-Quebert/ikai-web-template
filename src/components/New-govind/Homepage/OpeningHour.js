@@ -20,8 +20,8 @@ const OpeningHour = () => {
         <img src={MENUBG} className="oph-img" />
         <h1 className="oph-header">{opHData.header}</h1>
         <img src={AB_DDR1} alt="" className="relative -mt-16  mx-40" /> 
-        <img src={AB_DDR2} alt="" className="relative ml-auto mr-175 -mt-138  " />
-        <p className="italic text-red-600 text-center text-xl -mt-14 relative ">{opHData.text}</p>
+        <img src={AB_DDR2} alt="" className="relative ml-auto  -mt-32 mr-40  py-1  " />
+        <p className="italic text-white text-center text-xl -mt-14 relative ">{opHData.text}</p>
 
         <div className="oph-div">
           <div>
