@@ -303,7 +303,7 @@
   .hdr-body {
     @apply bg-fixed text-center overflow-hidden relative py-72 px-10;
   }
-  .hdr-title {
+  .hdr-header {
     @apply text-5xl font-extrabold  tracking-widest text-white mt-5;
   }
   .hdr-content {
@@ -318,9 +318,6 @@
   .hdr-title {
     @apply text-white text-2xl tracking-tighter font-bold;
   }
-  /* .hdr-btn {
-  @apply bg-white text-sm uppercase font-sans hover:bg-red-600 duration-500 hover:text-white font-semibold outline-none p-3 mt-7;
-} */
 
   /*About section */
   .ab-title {
@@ -337,5 +334,48 @@
   }
   .ab-content1 {
     @apply text-gray-500 mt-5;
+  }
+
+  /* OpeningHours */
+  .oph-body {
+    @apply w-full h-96 shadow-2xl overflow-hidden relative px-10 p-10;
+  }
+  .oph-img {
+    @apply absolute inset-0 h-full w-full object-cover mt-5;
+  }
+  .oph-header {
+    @apply text-4xl font-extrabold text-white text-center relative;
+  }
+  .oph-text {
+    @apply italic text-red-600 text-center text-xl relative;
+  }
+  .oph-div {
+    @apply grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 px-10 text-center relative mt-10;
+  }
+  .oph-day1 {
+    @apply px-44 text-2xl text-red-600 relative font-extrabold;
+  }
+  .oph-day2 {
+    @apply px-44 text-2xl text-white font-bold;
+  }
+  .oph-content {
+    @apply text-center mt-10 text-white font-bold text-lg relative;
+  }
+
+  /* Menu */
+  .menu-divs {
+    @apply grid grid-cols-1 gap-4 sm:grid-cols-1 md:grid-cols-2 md:gap-8 lg:grid-cols-3 px-10 py-5;
+  }
+  .menu-categories {
+    @apply text-center text-2xl text-green-600 font-bold mb-5;
+  }
+  .menu-titles {
+    @apply text-lg font-bold mt-3;
+  }
+  .menu-prices {
+    @apply flex text-sm  justify-between;
+  }
+  .menu-links {
+    @apply mx-auto border border-green-600  tracking-widest text-green-600 font-bold hover:bg-green-600 hover:text-white mt-5  p-5;
   }
 }
