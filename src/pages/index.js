@@ -31,7 +31,7 @@ const IndexPage = () => {
       <SelectLanguage lang={lang} toggleLanguage={handleLanguage} />
       <hr />
       <hr />
-      <Link to="/newGovind/" className="hover:text-green-500">
+      <Link to="/NewGovind/" className="hover:text-green-500">
         NewHome
       </Link>
       <hr />
