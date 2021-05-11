@@ -25,7 +25,7 @@ const About = () => {
   }
 
   return (
-    <section className="mt-5 px-10">
+    <section className="mt-20 px-10">
       <div className="text-center ">
         <img src={AB_HDR1} className=" ml-auto -mb-2 mr-96" />
         <img src={AB_HDR1} className="ml-96" />
