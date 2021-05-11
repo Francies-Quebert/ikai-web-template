@@ -3,7 +3,7 @@ import IMG from "../../../images/menu-items/pizza.jpg"
 import IMG1 from "../../../images/menu-items/salads.png"
 import IMG2 from "../../../images/menu-items/desserts.png"
 import IMG3 from "../../../images/menu-items/ornament.png"
-import { url } from "../../../../data/config"
+// import { url } from "../../../../data/config"
 
 const NewMenu = () => {
   const itemtypes = [
@@ -67,7 +67,7 @@ const NewMenu = () => {
                   src={aa.img}
                 />
               </div>
-              <div className="grid grid-cols-3  md:grid-cols-1 sm:grid-cols-1 lg:grid-cols-3">
+              <div className="grid grid-cols-1  md:grid-cols-1 sm:grid-cols-1 lg:grid-cols-3">
                 <div className="px-8 relative">
                   {itemsdetails.map(xx => {
                     return (
