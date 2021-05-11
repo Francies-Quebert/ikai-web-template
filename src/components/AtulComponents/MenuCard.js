@@ -11,17 +11,26 @@ const MenuCard = props => {
           <div className="flex justify-center">
             <img src={Img1} className=" " />
           </div>
-          <div className="">
+          <div className="block text-left">
             <h5
-              className="py-3 text-2xl font-bold"
+              className="py-3 text-2xl font-bold hover:text-red-900"
               style={{ color: "#2a435d " }}
             >
               Vegetable Pizza
             </h5>
-            <p className="text-sm " style={{ color: "#2a435d" }}>
+            <p className="text-sm mb-1 py-3" style={{ color: "#2a435d" }}>
               It is a long established fact that a reader BBQ food Chicken.
             </p>
+            <span className="font-bold" style={{ color: "#2a435d" }}>
+              Price :$15.00
+            </span>
           </div>
+          <span
+            className="absolute  left-5 top-5 uppercase py-1  px-2 text-xs rounded font-bold"
+            style={{ backgroundColor: "#2a435d", color: "#ffffff" }}
+          >
+            Hot
+          </span>
         </div>
       </section>
     </>

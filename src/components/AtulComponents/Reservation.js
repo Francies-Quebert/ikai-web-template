@@ -7,7 +7,9 @@ const Reservation = () => {
     <>
       <div className="p-3.5">
         <div>
-          <h2 className="reservation-title">Reservations</h2>
+          <h2 className="text-center text-3xl mb-10 uppercase font-normal;">
+            Reservations
+          </h2>
         </div>
         <div className="flex justify-center">
           <p
