@@ -8,6 +8,14 @@ import SelectLanguage from "../components/SelectLanguage"
 import { useI18n } from "../providers/LanguageProvider"
 import MenuPage from "../components/SauravComponents/Menu/MenuPage"
 
+import NavBar from "../components/MainComponents/NavBar"
+import MainBanner from "../components/MainComponents/BannerComponent"
+import AboutUs from "../components/MainComponents/AboutUs"
+import OpeningHours from "../components/MainComponents/OpeningHours"
+import Features from "../components/MainComponents/Features"
+import Menu1Component from "../components/MainComponents/Menu1Component"
+import Footer from "../components/MainComponents/Footer"
+
 const IndexPage = () => {
   const { lang, handleLanguage } = useI18n()
 
@@ -25,10 +33,17 @@ const IndexPage = () => {
   }
   return (
     <Layout>
-      <SEO title="Home" />
-      <FormattedMessage id="welcome" />
-      <BodyMain />
-      <SelectLanguage lang={lang} toggleLanguage={handleLanguage} />
+      <SEO title="Restaurant Website" />
+      {/* <FormattedMessage id="welcome" /> */}
+      <NavBar />
+      <MainBanner />
+      <AboutUs />
+      <OpeningHours />
+      <Features />
+      <Menu1Component />
+      <Footer />
+      {/* <BodyMain /> */}
+      {/* <SelectLanguage lang={lang} toggleLanguage={handleLanguage} />
       <hr />
       <Link to="/Demogs" className="hover:text-red-500">
         
@@ -50,11 +65,12 @@ const IndexPage = () => {
       </Link> */}
       <hr />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-      <Link to="/page-2/">Go to page 2</Link>
+      <Link to="/page-2/">Go to page 2</Link> */}
       {/* <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
-      <Link to="/AtulWork/">Atul Work</Link>
+      {/* <Link to="/AtulWork/">Atul Work</Link>
       <Link to="/saurav">Saurav</Link>
-      <Link to="/404/">Err</Link>
+      <Link to="/404/">Err</Link> */}
+      <Link to="/saurav">Saurav</Link>
     </Layout>
   )
 }
