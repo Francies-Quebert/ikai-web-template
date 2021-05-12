@@ -311,7 +311,7 @@
 
   /* header section */
   .hdr-body {
-    @apply text-center overflow-hidden relative py-40 px-10;
+    @apply text-center overflow-hidden z-10 flex-wrap bg-fixed relative py-40 px-10;
   }
   .hdr-header {
     @apply text-5xl font-extrabold tracking-widest text-white mt-10;

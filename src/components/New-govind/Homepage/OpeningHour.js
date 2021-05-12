@@ -18,7 +18,7 @@ const OpeningHour = () => {
       <div className="w-full h-full  shadow-2xl overflow-hidden relative px-10 p-10 ">
         <img
           src={MENUBG}
-          className="absolute inset-0  w-full h-full object-cover mt-5"
+          className="absolute inset-0   w-full h-full object-cover mt-5"
         />
         <h1 className="text-4xl font-extrabold text-white text-center relative">
           {opHData.header}

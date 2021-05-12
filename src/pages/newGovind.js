@@ -29,7 +29,7 @@ const NewGovind = () => {
       window.removeEventListener("resize", hideMenu)
     }
   })
-  
+
   return (
     <>
       <Navbar toggle={toggle} />

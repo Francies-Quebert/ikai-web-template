@@ -30,8 +30,10 @@ const IndexPage = () => {
       <BodyMain />
       <SelectLanguage lang={lang} toggleLanguage={handleLanguage} />
       <hr />
-      <hr />
-      <Link to="/NewGovind/" className="hover:text-green-500">
+      <Link to="/Demogs" className="hover:text-red-500">
+        
+      </Link>
+      {/* <Link to="/NewGovind/" className="hover:text-green-500">
         NewHome
       </Link>
       <hr />
@@ -45,7 +47,7 @@ const IndexPage = () => {
       <hr />
       <Link to="/contact/" className="hover:text-red-500">
         contact page
-      </Link>
+      </Link> */}
       <hr />
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
       <Link to="/page-2/">Go to page 2</Link>
