@@ -2,7 +2,6 @@ import React from "react"
 import MENUBG from "../../../images/opening_hours.jpg"
 import AB_DDR1 from "../../../images/dec1.png"
 import AB_DDR2 from "../../../images/dec2.png"
-import AB_DDR3 from "../../../images/column-divider.png"
 
 const OpeningHour = () => {
   const opHData = {
@@ -16,25 +15,48 @@ const OpeningHour = () => {
   }
   return (
     <>
-      <div className="oph-body ">
-        <img src={MENUBG} className="oph-img" />
-        <h1 className="oph-header">{opHData.header}</h1>
-        <img src={AB_DDR1} alt="" className="relative -mt-16  mx-40" /> 
-        <img src={AB_DDR2} alt="" className="relative ml-auto  -mt-32 mr-40  py-1  " />
-        <p className="italic text-white text-center text-xl -mt-14 relative ">{opHData.text}</p>
+      <div className="w-full h-full  shadow-2xl overflow-hidden relative px-10 p-10 ">
+        <img
+          src={MENUBG}
+          className="absolute inset-0  w-full h-full object-cover mt-5"
+        />
+        <h1 className="text-4xl font-extrabold text-white text-center relative">
+          {opHData.header}
+        </h1>
+        <img
+          src={AB_DDR1}
+          className=" sm:invisible md:invisible lg:invisible 2xl:visible xl:visible   relative -mt-16  mx-40"
+        />
+        <img
+          src={AB_DDR2}
+          className="sm:invisible md:invisible lg:invisible 2xl:visible xl:visible ml-auto relative ml-800  -mt-32 mr-40 py-1  "
+        />
+        <p className="  italic text-white text-center -mt-14 relative ">
+          {opHData.text}
+        </p>
 
-        <div className="oph-div">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 px-10 text-center relative mt-10 ">
           <div>
-            <h1 className="oph-day1 ">{opHData.day1}</h1>
-            <p className="oph-day2">{opHData.time1}</p>
+            <h1 className="xl:px-44 text-2xl text-red-600 relative font-extrabold ">
+              {opHData.day1}
+            </h1>
+            <p className="xl:px-44 text-2xl text-white font-bold">
+              {opHData.time1}
+            </p>
           </div>
           <div>
-            <h1 className="oph-day1">{opHData.day2}</h1>
-            <p className="oph-day2">{opHData.time2}</p>
+            <h1 className=" xl:px-44  text-2xl text-red-600 relative font-extrabold">
+              {opHData.day2}
+            </h1>
+            <p className=" xl:px-44  text-2xl text-white font-bold">
+              {opHData.time2}
+            </p>
           </div>
         </div>
-        <img src={AB_DDR3} alt="" />
-        <p className="oph-content ">{opHData.content}</p>
+        {/* <img src={AB_DDR3} alt="" /> */}
+        <p className="text-center  text-white font-bold text-lg relative mt-10 ">
+          {opHData.content}
+        </p>
       </div>
     </>
   )
