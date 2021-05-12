@@ -51,7 +51,7 @@ const NewMenu = () => {
             <>
               <div className="grid px-10 relative">
                 <div
-                  className="md:mt-32 lg:mt-5 ml-5 text-6xl font-light text-center uppercase pt-5 block font-sans"
+                  className="md:mt-5 lg:mt-5 ml-5 text-6xl font-light text-center uppercase pt-5 block font-sans"
                   style={{ color: "#773f23" }}
                 >
                   {aa.name}
@@ -77,7 +77,7 @@ const NewMenu = () => {
                           <li className="uppercase mb-5 font-bold md:text-xl lg:text-base">
                             {xx.name}
                             <div
-                              className="block md:text-sm lg:text-xs font-normal"
+                              className="block md:text-sm lg:text-xs text-xs font-normal"
                               style={{ color: "#484745" }}
                             >
                               {xx.deatils}
@@ -103,7 +103,7 @@ const NewMenu = () => {
                           <li className="uppercase mb-5 font-bold md:text-xl lg:text-base">
                             {xx.name}
                             <div
-                              className="block md:text-sm lg:text-xs font-normal"
+                              className="block md:text-sm lg:text-xs text-xs font-normal"
                               style={{ color: "#484745" }}
                             >
                               {xx.deatils}
@@ -129,7 +129,7 @@ const NewMenu = () => {
                           <li className="uppercase mb-5 font-bold md:text-xl lg:text-base">
                             {xx.name}
                             <div
-                              className="block md:text-sm lg:text-xs font-normal"
+                              className="block md:text-sm lg:text-xs font-normal text-xs"
                               style={{ color: "#484745" }}
                             >
                               {xx.deatils}
