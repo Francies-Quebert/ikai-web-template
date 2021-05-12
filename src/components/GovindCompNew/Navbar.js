@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import LOGO from "../../../images/logo.png"
+import LOGO from "../../images/logo.png"
 import "tailwindcss/tailwind.css"
 import { MenuIcon } from "@heroicons/react/solid"
 
