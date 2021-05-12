@@ -10,7 +10,8 @@ module.exports = {
       }),
 
       fontFamily: {
-        body: ["Roboto Slab"],
+        'body': ["Roboto Slab", "Parisienne"],
+        'Parisienne':['Parisienne']
       },
     },
   },

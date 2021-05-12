@@ -8,7 +8,8 @@ import SelectLanguage from "../components/SelectLanguage"
 import { useI18n } from "../providers/LanguageProvider"
 import MenuPage from "../components/SauravComponents/Menu/MenuPage"
 
-import NavBar from "../components/MainComponents/NavBar"
+import NavBar from "../components/MainComponents/NavBar2"
+// import NavBar from "../components/MainComponents/NavBar"
 import MainBanner from "../components/MainComponents/BannerComponent"
 import AboutUs from "../components/MainComponents/AboutUs"
 import OpeningHours from "../components/MainComponents/OpeningHours"
@@ -68,7 +69,7 @@ const IndexPage = () => {
       {/* <Link to="/AtulWork/">Atul Work</Link>
       <Link to="/saurav">Saurav</Link>
       <Link to="/404/">Err</Link> */}
-      <Link to="/saurav">Saurav</Link>
+      {/* <Link to="/saurav">Saurav</Link> */}
     </Layout>
   )
 }

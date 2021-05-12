@@ -26,7 +26,7 @@ const NavBar = ({}) => {
   //   })
   return (
     <>
-      <div className="sticky top-0 z-50 " >
+      <div className="sticky top-0 z-50 ">
         <nav
           className={`${
             !isOpen
