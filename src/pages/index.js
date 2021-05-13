@@ -63,9 +63,9 @@ const IndexPage = () => {
       <Link to="/contact/" className="hover:text-red-500">
         contact page
       </Link> */}
-      <hr />
+      {/* <hr /> */}
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-      <Link to="/page-2/">Go to page 2</Link> */}
+      <Link to="/page-2/">Go to page 2</Link>
       {/* <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
       {/* <Link to="/AtulWork/">Atul Work</Link>
       <Link to="/saurav">Saurav</Link>

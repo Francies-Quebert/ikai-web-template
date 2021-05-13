@@ -7,7 +7,7 @@ import { MenuIcon } from "@heroicons/react/solid"
 const Navbar = ({ toggle }) => {
   return (
     <>
-      <div className=" sticky top-0 ">
+      <div className=" sticky top-0 z-50">
         <nav
           className="flex justify-between items-center h-16 bg-gray-50 text-black shadow-2xl relative  md:justify-between"
           role="navigation"
